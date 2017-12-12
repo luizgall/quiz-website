@@ -1,0 +1,130 @@
+html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+img{
+float:left;
+height:150px;
+
+}
+
+aside{
+background-image: url("http://www.freepngimg.com/download/statue_of_liberty/2-2-statue-of-liberty-png.png");
+background-size: cover;
+height:450px;
+width: 200px;
+    z-index: -5;
+}
+
+#left{
+
+float: left;
+
+}
+
+#right{
+
+float: right;
+margin-right:20px;
+}
+
+body{
+background-image: url("http://abbot.us/DD629/flags/50starJack.png");
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+background-color: #ff0000;
+margin:50px;
+margin-top:0;
+margin-bottom:50px;
+min-height:150px;
+padding-left:50px;
+padding-top:10px;
+border-radius:20px;
+border-color: black;
+border-style:solid;
+text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+
+}
+
+header h1{
+  float: left;
+  font-size:30px;
+
+}
+header h2{
+  float: right;
+  margin-right:150px;
+  margin-top:5px;
+  font-style: italic;
+}
+
+main {
+  color: black;
+ display:flex;
+ flex-wrap: wrap ;
+flex-direction: column;
+justify-content: center;
+  width: 500px;
+  margin: 20px auto;
+  margin-bottom: 100px;
+  padding: 30px;
+  padding-bottom:60px;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid black;
+    
+}
+
+footer{
+  position: fixed;
+	height: 15px;
+  bottom: 0;
+  padding: 15px;
+  background-color: #ff0000;
+border-radius:20px;
+border-color: black;
+border-style:solid;
+}
+
+button{
+border:3px solid black;
+border-radius:3px;
+position: relative;
+top: 20px;
+margin:0 auto;
+height:50px;
+width:80px;
+font-size:20px;
+font-family: 'Open Sans', sans-serif;
+}
+
+main p{
+  margin: 0 10px;
+
+}
+#container{
+   position:relative;
+min-height:100%;
+}
+
+#campoResposta{
+height: 100px;
+width: 300px;
+margin: 0 auto;
+
+}
+
+@media only screen and (max-width: 900px) {
+  header{
+height: 200px;
+    
+  }  
+  header h2 {
+        float:none;
+    }
+}
